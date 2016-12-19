@@ -1,0 +1,30 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl,
+dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img,
+ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    /*定位(子绝父相)*/
+    position: relative;
+}
+#main .box{
+    /*内边距(上,左各15px)*/
+    /*上,右,下,左*/
+    padding: 15px 0 0 15px;
+    /*单个盒子相对于整个父标签浮动*/
+    float: left;
+}
+#main .box .picBox{
+    /*给单个盒子中的小盒子加边框*/
+    border: 1px solid #dddddd;
+    /*内边距(上,左各15px)*/
+    /*上,右,下,左*/
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #ddd;
+}
+#main .box .picBox img{
+    /*设置图片的宽度*/
+    width: 165px;;
+}

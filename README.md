@@ -1,0 +1,2 @@
+# JS-JQ_waterfall
+分别用JavaScript和jQuery编写的注解最为详细的瀑布流案例(特别适合新手学习),后续会逐渐更新reactnative详细注解案例
